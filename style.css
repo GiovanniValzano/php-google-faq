@@ -1,0 +1,43 @@
+.testo {
+    margin: 50px;
+    padding: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.logo {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+img {
+    height: 50px;
+}
+
+.lista {
+    display: flex;
+    justify-content: flex-start;
+    gap: 20px;
+    list-style: none;
+}
+
+.lista a {
+    text-decoration: none;
+    color: black;
+}
+
+.select {
+    border-bottom: 3px solid rgb(17, 132, 255);
+    padding-bottom: 10px;
+}
